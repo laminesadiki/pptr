@@ -4,7 +4,7 @@ const {
     browserTools,
     createContext,
     constants: { META_KEY, DEFAULT_VIEWPORT, DEVTOOLS_TIMEOUT_SECS, SESSION_MAX_USAGE_COUNTS, PROXY_ROTATION_NAMES },
-} = require('@apify/scraper-tools');
+} = require('../scraper-tools');
 
 const SCHEMA = require('../INPUT_SCHEMA');
 
